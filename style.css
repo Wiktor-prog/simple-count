@@ -1,0 +1,60 @@
+/*  ===========
+      GLOBAL 
+    =========== */ 
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+}  
+
+span {
+  margin: auto 0;
+  padding: 15px;  
+  color: rgb(0, 0, 0);
+  font-size: 8rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  padding: 16px;  
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+  font-size: 4rem;
+} 
+
+.btn.decrease  {
+  padding: 14px;
+  font-size: 20px;
+  background: #65a1fc;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+.btn.increase {
+  padding: 14px;
+  font-size: 20px;
+  background: #ff524c;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+.btn.reset {
+  padding: 14px;
+  font-size: 20px;
+  background: #2dc428;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer; 
+}
